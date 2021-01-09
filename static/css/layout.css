@@ -3,7 +3,7 @@
       font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background-color: whitesmoke;
+    background-color: rgb(50, 56, 55);
     color:  #17421D;
 }
 .container{
@@ -12,7 +12,8 @@ body{
     margin-right: auto;
     border-width: 1px 1px 1px 1px;
     border-style: solid;
-    box-shadow: 15px 15px 8px gray;    
+    box-shadow: 15px 15px 8px gray;
+    background-color: aqua;    
 }
 
 .banner{
@@ -21,11 +22,15 @@ body{
     height: 250px;
     text-align: center;
     font-size: xx-large;
-    background-image : url("/static/img/chip1.jpg");
+    background-image : url("/static/img/head.jpeg");
     background-size:cover;
     margin: 0px 0px 0px 0px;
-    padding-top: 150px;
-    color: #17421D;
+    padding-top: 50px;
+    padding-right: 40px;
+    color: white;
+    font-display: inherit;
+    font-style: italic;
+    font-weight: 1000;
 }
 
 .menu{
@@ -33,7 +38,7 @@ body{
     width: 100%;
     height: 50px;
     font-size: larger;
-    background-color: #17421D;
+    background-color: black;
     text-align: center;
     padding-top: 15px;
     margin: 0px 0px 0px 0px;
@@ -64,9 +69,12 @@ body{
 .homecontent{
     min-height: 500px;
     margin: 10px 10px 10px 10px;
+    color: indigo;
 }
 .homecontent h1{
-    text-align: left;    
+    text-align: left;
+    font-style: italic;
+    color: black;    
 }
 .homecontent img{
     float: right;
@@ -77,55 +85,156 @@ body{
 
 .contenttext{
     text-align: justify;
+    color: red;
+    font-size: large;
+    font-weight: 800;
+    font-style: italic;
 }
 
 .productcontent{
     min-height: 500px;
     margin: 10px 10px 10px 10px;
+    color: indigo;
 }
 
 .productcontent h1{
-    text-align: left;    
+    text-align: left;
+    font-style: italic;
+    color: black;    
 }
 
 .productitems{
     display: block;
+    color: indigo;
 }
 
 .productitem{
     display: inline-block;
-    width: 30%;
+    width: 40%;
     height: 250px;
+    padding-top: 2%;
     text-align: center;
+    color: indigo;
 }
 
 .productitem img{
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height: 250px;
     display: block;
 }
 .productitem .itemimage{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100px;
+    width: 40%;
+    height: 255px;
     margin-bottom: 5px;
 }
 
 .productitem .itemname{
     display: block;
+    color: red;
+    font-style: italic;
+    font-size: large;
+    font-weight: 800;
+    padding-left: 20%;
 }
 .productitem .itemprice{
     display: block;
+    color: red;
+    font-style: italic;
+    font-size: large ;
+    font-weight: 800;
+    padding-left: 20%;
 }
 
 .footer{
     display: block;
     width: 100%;
     height: 40px;
-    background-color: #17421D;
+    background-color: black;
     text-align: center;
     padding-top: 10px;
     margin: 0px 0px 0px 0px;
     color: rgb(218, 214, 214);
+}
+
+.people{
+    display: block;
+    color: black;
+}
+
+.email{
+    display: inline-block;
+    width: 900px;
+    height: 25px;
+    padding-left: 50%;
+    padding-bottom: 20%;
+    padding-top: 30% ;
+    color: red;
+    font-style: italic;  
+}
+
+.mail{
+    display: block;
+    width: 900px;
+    padding-right: 50%;
+    padding-left: 68%;
+    color: red;
+    font-style: italic;
+}
+
+h1{
+    
+    font-style: italic;
+}
+
+.peoplename{
+    display: inline-block;
+    padding-left:30px ;
+    color: black;
+    font-style: italic;
+}
+
+.contactitem{
+    display: inline-block;
+    padding-bottom: 2%;
+}
+
+.productitem .contactname {
+    display: block;
+    color: red;
+    font-style: italic;
+    font-size: large;
+    font-weight: 800;
+    padding-left: 60%;
+    width: 1000px;
+    padding-bottom: 1%;
+    font-weight: 900;
+}
+.productitem .contactprice{
+    display: block;
+    color: red;
+    font-style: italic;
+    font-size: large ;
+    font-weight: 800;
+    padding-left: 65%;
+    width: 900px;
+    font-weight: initial;
+    font-weight: 900;
+}
+
+.productitem .contactimage{
+    display: inline-block;
+    width: 90%;
+    margin-bottom: 10%;
+    padding-left: 80%;
+}
+
+.contactname h1{
+    color: red;
+}
+
+.contactprice h1{
+    color: red;
 }
