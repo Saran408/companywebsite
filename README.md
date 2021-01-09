@@ -264,19 +264,19 @@ Publish the website in the given URL.
 ## OUTPUT:
 ![output](./static/img/homeout.png)
 
-![output](./static/img/productout.jpg)
+![output](./static/img/productout.png)
 
-![output](./static/img/peopleout.jpg)
+![output](./static/img/peopleout.png)
 
-![output](./static/img/contactout.jpg)
+![output](./static/img/contactout.png)
 
 ## CODE VALIDATION REPORT:
-![output](./static/img/home.jpg)
+![output](./static/img/home.png)
 
-![output](./static/img/product.jpg)
+![output](./static/img/product.png)
 
-![output](./static/img/people.jpg)
+![output](./static/img/people.png)
 
-![output](./static/img/contactus.jpg)
+![output](./static/img/contactus.png)
 ## RESULT:
 Thus a website is designed for the chip manufacturing company and is hosted in the URL http://saran.student.saveetha.in:8000/. HTML code is validated.
